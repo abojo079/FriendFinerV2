@@ -16,3 +16,7 @@ require("./routing/htmlRoutes")(app);
 app.listen(PORT, function() {
   console.log('Listening on PORT: ' + PORT);
 });
+
+
+//was not able to set up compatibility of user and individuals listed in friends.js
+//was unable to develop a modal pop up
