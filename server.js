@@ -18,7 +18,7 @@ app.listen(PORT, function() {
 });
 
 
-//was not able to set up compatibility of user and individuals listed in friends.js
+//was not able to set up compatibility between user and individuals listed in friends.js
 //unable to get the friend.js information to appear when clicked on the homepage
 //was unable to develop a modal pop up
 
