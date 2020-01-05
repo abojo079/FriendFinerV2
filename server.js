@@ -9,8 +9,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(bodyParser.text());
 
-require("../FriendFinerV2/routing/apiRoutes")(app);
-require("../FriendFinerV2/routing/htmlRoutes")(app);
+require("./routing/apiRoutes")(app);
+require("./routing/htmlRoutes")(app);
 
 
 app.listen(PORT, function() {
